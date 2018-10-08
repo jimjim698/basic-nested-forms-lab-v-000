@@ -3,5 +3,8 @@
   <%=f.submit%>
   <%=f.fields_for :ingredients do |ing|%>
   <%=ing.label :ingredient_1%>
-  <%=ing.text_field :ing
+  <%=ing.text_field :ingredient_1%><br>
+  <%=ing.label :ingredient_2%>
+  <%=ing.text_field :ingredient_2%>
+  <%end%>
 <% end %>
